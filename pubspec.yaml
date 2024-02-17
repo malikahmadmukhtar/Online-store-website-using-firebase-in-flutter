@@ -1,0 +1,57 @@
+name: e_com_app
+description: "E commerce Based multiplatform app"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.24.2
+  url_launcher:
+  loading_animation_widget:
+  cloud_firestore:
+  firebase_storage:
+  fluttertoast:
+  path:
+  badges:
+  firebase_auth: ^4.16.0
+  email_validator: ^2.0.1
+  google_nav_bar: ^5.0.6
+  carousel_slider:
+  font_awesome_flutter: ^10.7.0
+  provider: ^6.1.1
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: curveregular
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+    - family: curvemedium
+      fonts:
+        - asset: assets/fonts/Nunito-Medium.ttf
+
+    - family: curvebold
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
