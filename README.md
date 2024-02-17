@@ -1,5 +1,7 @@
 # Online Store Website In Flutter using Firebase
 #### A companion website for the [Online Store app](https://github.com/malikahmadmukhtar/Online-Store-App-using-flutter-Firebase) in flutter
+
+Can be Viewed [here](https://shopping-zone12.netlify.app/)
 - Intro
 
   <img src="https://github.com/malikahmadmukhtar/Online-store-website-using-firebase-in-flutter/assets/158511475/19d9f446-a0c2-4de1-bbdf-76aa58b74808"/>
