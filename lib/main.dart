@@ -12,11 +12,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-    apiKey: "AIzaSyBffSa7lO32t3LcB20r4Xu7W6_AEsQBF9I",
-    appId: "1:269036190878:web:50a36cd90e67e8b9fd8f8f",
-    messagingSenderId: "269036190878",
-    storageBucket: "e-com-app-1e9de.appspot.com",
-    projectId: "e-com-app-1e9de",
+    // add your firebase config here
   ));
   runApp(
     ChangeNotifierProvider(
